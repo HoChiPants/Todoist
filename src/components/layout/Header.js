@@ -8,14 +8,14 @@ export const Header = () => {
                 <img src="/images/logo.png" alt="Todoist"/>
 
             </div>
-            <dic className = "settings">
+            <div className = "settings">
                 <ul>
                     <li>+</li>
-                    <lis>
+                    <li>
                         <FaPizzaSlice/>
-                    </lis>
+                    </li>
                 </ul>
-            </dic>
+            </div>
         </nav>
     </header>
 }
